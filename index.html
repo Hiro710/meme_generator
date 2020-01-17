@@ -42,13 +42,15 @@
     <title>Meme Generator</title>
   </head>
   <body>
+      <h1>Meme Generator</h1>
       <!--input-->
       <form>
         Select a Picture <br>
         <input type="file" id="user_picture" onchange="update_image()"><p>
-        Meme Text <br>
-        <input type="text" id="user_text" maxlength="29" oninput="update_text()"><p>
+        Meme Text <strong>(Max: 29 characters)</strong><br>
+        <input type="text" id="user_text" maxlength="29" oninput="update_text()" placeholder="Text input here"><p>
       </form>
+      <br>
       <!--output-->
       <div id="meme_text">&nbsp;</div>
       <div id="meme_picture"><img src="" height="500" width="600"></div><p>
