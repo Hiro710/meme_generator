@@ -6,6 +6,6 @@ Simple meme generator
 
 1. Select image.
 
-2. Enter the text.
+2. Enter the text.(Max: 29 characters)
 
 3. Please do "Save as" by right-clicking on your own.
